@@ -1,0 +1,59 @@
+* {
+   margin: 0 auto;
+   padding: 0;
+}
+
+body {
+   background-color: rgb(7, 6, 7);
+}
+
+.max-width {
+   max-width: 500px;
+   width: 100%;
+   padding: 10px;
+   box-sizing: border-box;
+   margin-top: 10%;
+   background-color: rgb(214, 206, 206);
+   box-shadow: 0 0 5px rgb(158, 141, 141);
+   text-align: center;
+   border-radius: 29px;
+}
+
+h1 {
+   font-family: 'Courier New', Courier, monospace;
+   margin-top: 20px;
+}
+
+button {
+   padding: 10px;
+   border: none;
+   outline: none;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1.2rem;
+   transition: all .5s;
+   cursor: pointer;
+   border-radius: 10px;
+   
+}
+
+button:hover {
+   background-color: #e3e7e9;
+}
+
+button:active {
+   background: linear-gradient(to left, #0f0f0f, #bbb4b7);
+   color: #fff;
+   
+}
+
+.bg-green {
+   background-color: #0ee644;
+}
+
+.bg-yellow {
+   background-color: #ced119;
+}
+
+.bg-red {
+   background-color: #f00202;
+}
